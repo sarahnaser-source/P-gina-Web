@@ -6,8 +6,8 @@
   --tamanho-fonte: 22px; /* Aumentei o tamanho base da fonte para 22px para leitura inicial mais fácil */
   
   /* Padrão Ouro WCAG AAA para Baixa Visão */
-  --cor-fundo-tela: #121212;    /* Cinza quase preto. Evita o brilho doloroso do branco puro */
-  --cor-primaria: #FFEA00;      /* Amarelo vibrante. A cor mais visível para o olho humano */
+  --cor-fundo-tela: #266c5e;    /* Cinza quase preto. Evita o brilho doloroso do branco puro */
+  --cor-primaria: #00ffd9;      /* Amarelo vibrante. A cor mais visível para o olho humano */
   --cor-texto-principal: #FFFFFF; /* Branco puro para contrastar com o fundo escuro */
   --cor-texto-invertido: #000000; /* Preto puro para ser lido em cima do amarelo */
   
