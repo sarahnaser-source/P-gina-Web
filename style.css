@@ -7,9 +7,9 @@
   
   /* Padrão Ouro WCAG AAA para Baixa Visão */
   --cor-fundo-tela: #266c5e;    /* Cinza quase preto. Evita o brilho doloroso do branco puro */
-  --cor-primaria: #00ffd9;      /* Amarelo vibrante. A cor mais visível para o olho humano */
+  --cor-primaria: hsl(171, 100%, 50%);     
   --cor-texto-principal: #FFFFFF; /* Branco puro para contrastar com o fundo escuro */
-  --cor-texto-invertido: #000000; /* Preto puro para ser lido em cima do amarelo */
+  --cor-texto-invertido: #292525; /* Preto puro para ser lido em cima do amarelo */
   
   --cor-frente-cartao: #1E1E1E; /* Cinza escuro um tom acima do fundo, cria profundidade */
   --cor-verso-cartao: #2A2A2A;  /* Cinza um pouco mais claro para diferenciar o verso */
@@ -260,7 +260,7 @@ footer {
 /* Ajustes dos filtros. Como a base já é escura, focamos em substituir o amarelo por cores seguras para daltônicos */
 
 body.protanopia, body.deuteranopia {
-  --cor-primaria: #00A6FF; /* Azul ciano brilhante substitui o amarelo */
+  --cor-primaria: #00a6ff; /* Azul ciano brilhante substitui o amarelo */
 }
 
 body.tritanopia {
